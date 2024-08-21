@@ -1,14 +1,8 @@
-name: Compara Templates
-
 on:
   push:
 
 jobs:
-  compara_diretorios:
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Analisa template remoto
+  compara_diretorios:   
       uses: robthross/gitactions/.github/workflows/check-template.yml@main
       with:
         ref: ${{ github.head_ref }}
