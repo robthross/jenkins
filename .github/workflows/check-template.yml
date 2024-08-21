@@ -3,7 +3,7 @@ on:
 
 jobs:
   compara_diretorios:   
-      uses: robthross/gitactions/.github/workflows/check-template.yml@main
+      uses: robthross/gitactions/.github/workflows/check-template.yml@release
       with:
         ref: ${{ github.head_ref }}
         
