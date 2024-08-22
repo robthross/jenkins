@@ -6,4 +6,5 @@ jobs:
       uses: robthross/gitactions/.github/workflows/check-template.yml@release
       with:
         ref: ${{ github.head_ref }}
-        token: '${{ secrets.INTEGRACAO_TOKEN }}'
+      secrets: inherit
+ 
