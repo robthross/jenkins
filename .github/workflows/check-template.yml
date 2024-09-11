@@ -7,4 +7,4 @@ jobs:
   compara_diretorios:   
       uses: robthross/gitactions/.github/workflows/check-template.yml@develop
       with:
-        target_repo_token: ${{ secrets.GITHUB_TEMMPLATE }}
+        target_repo_token: ${{ secrets.GITHUB_TEMPLATE }}
