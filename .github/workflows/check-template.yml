@@ -5,6 +5,4 @@ on:
 jobs:
   compara_diretorios:   
       uses: robthross/gitactions/.github/workflows/check-template.yml@develop
-      secrets:
-        PAT_TOKEN: ${{ secrets.INTEGRACAO_TOKEN }}
         
