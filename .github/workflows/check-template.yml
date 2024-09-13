@@ -5,4 +5,3 @@ on:
 jobs:
   compara_diretorios:   
       uses: robthross/gitactions/.github/workflows/check-template.yml@develop
-        
